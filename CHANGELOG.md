@@ -1,8 +1,9 @@
 - `Filter` changes:
  - New filter settings interface.
- - Multiple content can be filtered at once.
- - Filter can now either apply partial or exact string matching, along with regular expressions.
+ - Filters can now match multiple content at once.
+ - Filters can now either apply partial or exact string matching, along with regular expressions.
  - Filters can now anonymize.
+ - Filters can now control if hiding/higlighting applies recursively or not.
 
 ### 3.20.12 - *2014-05-03*
 
