@@ -210,23 +210,7 @@ $.sync = do ->
         cb changes[key].newValue, key
     return
   (key, cb) -> $.syncing[key] = cb
-$.localKeys = [
-  # filters
-  'name',
-  'uniqueID',
-  'tripcode',
-  'capcode',
-  'email',
-  'subject',
-  'comment',
-  'flag',
-  'filename',
-  'dimensions',
-  'filesize',
-  'MD5',
-  # custom css
-  'usercss'
-]
+$.localKeys = ['filters', 'usercss']
 # https://developer.chrome.com/extensions/storage.html
 do ->
   items =
