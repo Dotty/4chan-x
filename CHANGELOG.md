@@ -4,6 +4,7 @@
  - Filters can now either apply partial or exact string matching, along with regular expressions.
  - Filters can now anonymize.
  - Filters can now control if hiding/higlighting applies recursively or not.
+ - Filters can now be exported, and you can also import additional filters.
 
 ### 3.20.12 - *2014-05-03*
 
